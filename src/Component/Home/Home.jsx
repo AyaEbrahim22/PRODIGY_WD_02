@@ -100,6 +100,7 @@ export default function Home() {
         document.getElementById('lapSections').innerHTML = '';
         document.getElementById('bigDiv').classList.add('d-none')
         lapContent = '';
+        noLaps = 0;
     }
 
     function showThreeBtns() {
